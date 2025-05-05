@@ -12,6 +12,11 @@
           sync-c="true"
           sync-tags="false"/>
 
+  <remote name="clo-ype"
+          fetch="https://git.codelinaro.org/clo/ype"
+          sync-c="true"
+          sync-tags="false"/>
+
   <default remote="clo-la"/>
 
 </manifest>
