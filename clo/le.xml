@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="clo-ype" revision="02b04a20d46ca2d7fe813dbf2ec377553fc41bac" upstream="refs/heads/openembeded.org/dunfell"/>
+  <project name="external/yoctoproject.org/meta-gplv2" path="poky/meta-gplv2" remote="clo-ype" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="refs/heads/meta-gplv2/dunfell"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="aa0073041806c9f417a33b0b7f747d2a86289eda" upstream="refs/heads/yocto/dunfell"/>
+  <project name="clo/filesystems/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="0b685af0d9cf9a75809fdc12bf51685b3573f9cf" upstream="refs/heads/core-technologies.lnx.12.0.r3"/>
+  <project name="clo/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="9b1f4748a0268012b69f6501883d2f4ab39e2a77" upstream="refs/heads/yocto.lnx.4.0.r3-rel"/>
+  <project name="clo/le/meta-qti-core" path="poky/meta-qti-core" revision="b6ae759aa9a24ba447908f3d8fb96d8d22bc0ce5" upstream="refs/heads/core-technologies.lnx.12.0.r3"/>
+  <project name="clo/le/meta-qti-display" path="poky/meta-qti-display" revision="a641e7a398b0a3fc1558ba6e8fcfcc23425fc4e0" upstream="refs/heads/display-le.lnx.2.0.r1-rel"/>
+  <project name="clo/le/meta-qti-distro" path="poky/meta-qti-distro" revision="63b796f018284fdff1f7694e0e1b912fe4ae31f3" upstream="refs/heads/yocto.lnx.4.0.r3-rel"/>
+  <project name="clo/le/meta-qti-security" path="poky/meta-qti-security" revision="06aecdd0537582cc0533200969331fda3a4c99e0" upstream="refs/heads/sec-userspace.lnx-meta.6.1.r3-rel"/>
+  <project name="clo/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="fe7396bcb12a36ba02a91f7149eabbafd5695556" upstream="refs/heads/le-sepolicy.lnx.4.0.r3-rel"/>
+  <project name="clo/le/meta-selinux" path="poky/meta-selinux" revision="37ffb3cd6dc78731d4c4077ea57c94136af81102" upstream="refs/heads/le-sepolicy.lnx.4.0.r3-rel"/>
+  <project name="clo/la/platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4.r9-rel"/>
+  <project name="clo/la/platform/hardware/libhardware" path="src/hardware/libhardware" revision="ac28d58e913d4a66f89e3ec012a7b8e673cfe125" upstream="refs/heads/le-blast.lnx.1.4.r9-rel"/>
+  <project name="clo/la/platform/hardware/qcom/display" path="src/hardware/qcom/display" revision="b7eec64cfdf14bc90fc451f07dc1e55ce04dd340" upstream="refs/heads/display.lnx.8.0.r3-rel"/>
+  <project name="clo/la/platform/system/core" path="src/system/core" revision="deea5687b7febd4b37eba50eb76385cbd0c84c63" upstream="refs/heads/le-blast.lnx.1.4.r9-rel"/>
+  <project name="clo/la/platform/system/extras" path="src/system/extras" revision="e05e69cf63d406e7a9b643fc022b2ba3b5f668d4" upstream="refs/heads/le-blast.lnx.1.4.r9-rel"/>
+  <project name="clo/le/platform/system/memory_repo" path="src/system/memory" revision="79a3999680b88a8d5bec0a82148c009e723df6f2" upstream="refs/heads/memory-le-apps.lnx.1.0.r1-rel"/>
+  <project name="clo/le/platform/system/memory/libdmabufheap" path="src/system/memory/libdmabufheap" revision="8a0d2ce5bba40b2fc29f92a4d86714a392f0ecab" upstream="refs/heads/memory-le-apps.lnx.1.0.r1-rel"/>
+  <project name="clo/le/platform/system/memory/libmeminfo" path="src/system/memory/libmeminfo" revision="45d6839d0bd7f55c0f4414489f6b9eb7604d3ae2" upstream="refs/heads/memory-le-apps.lnx.1.0.r1-rel"/>
+  <project name="clo/la/platform/vendor/opensource/display-drivers" path="src/vendor/qcom/opensource/display-drivers" revision="4ddb1d3b764352cb1090c124e0bf1947d670a0e0" upstream="refs/heads/display-kernel.lnx.5.10.r2-rel"/>
+  <project name="clo/la/platform/vendor/opensource/touch-drivers" path="src/vendor/qcom/opensource/touch-drivers" revision="7bcfa88cc1988d8496b988020f10366dd145eef1" upstream="refs/heads/touch-kernel.lnx.5.10.r3-rel"/>
+  <project name="clo/la/platform/vendor/qcom-opensource/display-commonsys-intf" path="src/vendor/qcom/opensource/commonsys-intf/display" revision="ed98106a82c2e0a6b1a85ecfcf87ef52bf0239c2" upstream="refs/heads/display-sysintf.lnx.12.0.r2-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/display/sdm-composer" path="src/vendor/qcom/opensource/display/sdm-composer" revision="925538ac9133f4b71002f7bda497d0922e634c21" upstream="refs/heads/display-le.lnx.2.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="86a26211155869c1e7454bbb4a2b1de9fc17eb66" upstream="refs/heads/le-frameworks.lnx.2.1.r9-rel"/>
+  <project name="clo/le/qti-conf" path="poky/qti-conf" revision="c0dddee6a81120be43dae951fd5d7f3d2b1520fd" upstream="refs/heads/yocto.lnx.4.0.r3-rel">
+    <linkfile src="set_bb_env.sh" dest="setup-environment"/>
+  </project>
+</manifest>

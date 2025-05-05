@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project remote="clo-la" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="22aecf92fcdf9b46b6368f01d8f3c61b986e18e8" upstream="refs/heads/display.lnx.8.0.r4-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/vendor/opensource/display-drivers" path="vendor/qcom/opensource/display-drivers" revision="9dd0eece75607e379bd44e07fe36250cb435058f" upstream="refs/heads/display-kernel.lnx.5.10.r3-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" src="display_driver_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" src="display_driver_board.mk"/>
+  </project>
+</manifest>
