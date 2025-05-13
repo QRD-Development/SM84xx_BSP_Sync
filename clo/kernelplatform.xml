@@ -2,7 +2,7 @@
 <manifest>
   <project remote="clo-la" name="kernel/build" path="kernel_platform/build" revision="115ffa9e22935a59871eaa5325a4309be9b2fe8b" upstream="refs/heads/kernel.lnx.5.10.r1-rel"/>
   <project remote="clo-la" name="kernel/common" path="kernel_platform/common" revision="4e97b9dd8c627c9c17a16254104559ed32f8cf19" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" groups="qki"/>
-  <project remote="clo-la" name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="37d6e5afcbc2b773a8e14d3c2c9c40d8fd6690c0" upstream="refs/heads/kernel.lnx.5.10.r1-rel">
+  <project remote="clo-la" name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="4013e5cac35ee6356e916c77529e017a9c818b36" upstream="refs/heads/kernel.lnx.5.10.r1-rel">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>

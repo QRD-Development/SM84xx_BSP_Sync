@@ -5,7 +5,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/mmrm_kernel_product.mk" src="mmrm_kernel_product.mk"/>
   </project>
   <project remote="clo-la" name="platform/vendor/opensource/mmrm-driver-test" path="vendor/qcom/opensource/mmrm-driver/test" revision="5e5e099689db214795b00771e7715b7dbdc71b3c" upstream="refs/heads/mmrm-kernel-waipio.lnx.1.0.r2-rel" groups="cyborg"/>
-  <project remote="clo-la" name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver" revision="9b133ef45b28e7234e102eb9fb376d3ee1f2262d" upstream="refs/heads/video-kernel-waipio.lnx.1.0.r2-rel" groups="cyborg">
+  <project remote="clo-la" name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver" revision="bde12393a10cc1f338ce259064fa20827ca75749" upstream="refs/heads/video-kernel-waipio.lnx.1.0.r2-rel" groups="cyborg">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/video_kernel_product.mk" src="video_kernel_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/video_kernel_board.mk" src="video_kernel_board.mk"/>
   </project>

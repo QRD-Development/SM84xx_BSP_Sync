@@ -19,20 +19,16 @@ mkdir -p "$download_dir"
 
 # Declaration of versions using associative arrays
 declare -A versions=(
-    [camera]="AU_TECHPACK_CAMERA.LA.2.0.R1.00.00.00.000.127"
-    [display]="AU_TECHPACK_DISPLAY.LA.2.0.R1.00.00.00.000.135"
-    [kernelplatform]="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.187"
-    [qssi_system]="AU_LINUX_ANDROID_LA.QSSI.15.0.R1.11.00.00.1136.145.00"
-    [system]="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.172.00"
-    [vendor]="AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.273"
+    [camera]="AU_TECHPACK_CAMERA.LA.2.0.R1.00.00.00.000.126"
+    [display]="AU_TECHPACK_DISPLAY.LA.2.0.R1.00.00.00.000.134"
+    [kernelplatform]="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.185"
+    [qssi_system]="AU_LINUX_ANDROID_LA.QSSI.15.0.R1.11.00.00.1136.133.00"
+    [system]="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.168.00"
+    [vendor]="AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.270"
     [le]="LE.UM.5.3.1.r1-20200-genericarmv8-64.0"
-    [video]="AU_TECHPACK_VIDEO.LA.2.0.R1.00.00.00.000.112"
-    [def_system]="default_LA.QSSI.12.0.r1-17200-qssi.0"
+    [video]="AU_TECHPACK_VIDEO.LA.2.0.R1.00.00.00.000.111"
+    [def_system]="default_LA.QSSI.12.0.r1-16800-qssi.0"
 )
-
-## In "snapdragon-premium-high-2021-spf-2-0-2_amss_standard_oem-r2.0.2.r1_00010.0" [LE] manifest most need LE.UM.5.3.1.r1-20300-genericarmv8-64.0.xml
-## But untill 2025/05/05 it is not available in the git repository
-## So we are using the latest available version of LE.UM.5.3.1.r1-20200-genericarmv8-64.0.xml
 
 # Loop through each tech pack and process accordingly
 for key in "${!versions[@]}"; do
