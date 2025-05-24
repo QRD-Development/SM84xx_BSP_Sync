@@ -35,6 +35,16 @@ function build_super {
         --skip_qiifa
 }
 
+function build_kernel {
+    cd "$VENDOR_DIR"
+    bash kernel_platform/qcom/proprietary/prebuilt_HY11/vendorsetup.sh
+    cd "$KERNEL_PLATFORM"
+    BUILD_CONFIG=./common/build.config.msm.waipio ./build/all-variants.sh "./build/build.sh" |& tee kernel_makelog_$(date +%Y%m%d_%H%M%S).txt
+    cd "$VENDOR_DIR"
+    cp -r "$KERNEL_PLATFORM"/out/* "$VENDOR_DIR"/out/
+}
+
 build_qssi
+build_kernel
 build_target
 build_super
