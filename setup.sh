@@ -21,13 +21,13 @@ mkdir -p "$download_dir"
 declare -A versions=(
     [camera]="AU_TECHPACK_CAMERA.LA.2.0.R1.00.00.00.000.127"
     [display]="AU_TECHPACK_DISPLAY.LA.2.0.R1.00.00.00.000.135"
-    [kernelplatform]="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.187"
-    [qssi_system]="AU_LINUX_ANDROID_LA.QSSI.15.0.R1.11.00.00.1136.145.00"
-    [system]="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.172.00"
-    [vendor]="AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.273"
-    [le]="LE.UM.5.3.1.r1-20300-genericarmv8-64.0"
+    [kernelplatform]="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.188"
+    [qssi_system]="AU_LINUX_ANDROID_LA.QSSI.16.0.R1.11.00.00.1274.049"
+    [system]="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.174.00"
+    [vendor]="AU_LINUX_ANDROID_LA.VENDOR.1.0.R1.11.00.00.816.274"
+    [le]="LE.UM.5.3.1.r1-20400-genericarmv8-64.0"
     [video]="AU_TECHPACK_VIDEO.LA.2.0.R1.00.00.00.000.112"
-    [def_system]="default_LA.QSSI.12.0.r1-17200-qssi.0"
+    [def_system]="default_LA.QSSI.12.0.r1-17400-qssi.0"
 )
 
 # Loop through each tech pack and process accordingly
